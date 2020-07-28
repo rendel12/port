@@ -1,0 +1,438 @@
+@charset "utf-8";
+
+
+/*main_slider*/
+
+
+.main_slider{
+    background:url(../images/main/main_slider_bg.png) no-repeat center center;
+    background-size:cover;
+    width:100%;
+    height:1080px;
+    position:relative;
+    overflow:hidden;
+}
+
+
+
+.main_txt{
+    position:relative;
+    width:100%;
+    height:100%;
+}
+
+.main_txt01{
+    position:absolute;
+    font-size:65px;
+    font-weight:700;
+    left:25%;
+    top:20%;
+    
+    
+}
+.main_txt02{
+    position:absolute;
+    font-size:65px;
+    font-weight:700;
+    top:73%;
+    left:61%;
+}
+
+
+
+/*portpolio_slick*/
+
+.portpolio{
+    position:relative;
+    width:100%;
+    height:100%;
+}
+
+.portpolio div{
+    width:100%;
+    height:100%;
+    overflow:hidden;
+}
+
+.slick-slide{
+    position:relative;
+    overflow:hidden;
+}
+
+.slick-slide div{
+    position:absolute;
+    left:50%;
+    margin-left:-960px;
+    overflow:hidden;
+}
+.portpolio .slick-dots button{
+    position:absolute;
+    border:0;
+    background:none;
+    padding:0;
+    text-indent:-9999px;
+}
+
+.slick-dots{
+    height:3px;
+    position:absolute;
+    bottom:6%;
+    z-index:9999;
+    left:50%;
+    margin-left:-171px;
+    display:block;
+}
+
+.slick-dots li{
+    width:30px;
+    float:left;
+    height:3px;
+    border:1px solid #333;
+    margin:0 3px;
+    cursor:pointer;
+    }
+
+.slick-dots .slick-active{
+    background:#333;
+}
+
+.portpolio .slider_arrow{
+    position:absolute;
+    z-index:10;
+    color:#333;
+    top:50%;
+    margin-top:-25px;
+    font-size:50px;
+}
+
+.arrowL{
+    position:absolute;
+    left:85px;
+    z-index:9999;
+    top:50%;
+    margin-top:-8px;
+    display:block;
+    cursor:pointer;
+}
+
+.arrowR{
+    position:absolute;
+    right:85px;
+    z-index:9999;
+    top:50%;
+    margin-top:-8px;
+    display:block;
+    cursor:pointer;
+}
+
+
+
+/*PORTPOLIO PAGE*/
+.pt_tit{
+    font-size:200px;
+    color:rgba(3, 3, 3, 0.03);
+    padding-top:100px;
+    text-align: center;
+}
+
+
+.portpolio h3{
+    font-size:150px;
+    position:absolute;
+    left:30%;
+    top:25%;
+    color:#fff;
+}
+
+.portpolio .pt_box{
+    position:absolute;
+    width:900px;
+    height:550px;
+    background-color:#fff;
+    border:1px solid #333;
+    box-sizing: border-box;
+    left:inherit;
+    margin-left:800px;
+    margin-bottom:150px;
+    top:26%;
+    padding-left:75px;
+    padding-top:50px;
+    box-shadow:2px 2px 10px rgba(3, 3, 3, 0.1);
+}
+.pt_box h4{
+    font-size:40px;
+    font-weight:400;
+    margin-bottom:100px;
+}
+.pt_box p{
+    font-size:24px;
+    font-weight:200;
+    margin:30px 0;
+    margin-left:150px;
+}
+.pt_box .pt_view{
+    position:absolute;
+    border:1px solid #333;
+    box-sizing:border-box;
+    width:180px;
+    height:50px;
+    z-index:9999;
+    margin:0;
+    background:url(../images/main/pt_veiw_plus_btn.png) no-repeat 90% center;
+    display:block;
+    bottom:7%;
+    left:75%;
+    
+    transition: transform .3s ease-out;
+}
+.pt_box .pt_view a{
+    box-sizing:border-box;
+    padding-left:10px;
+    line-height:50px;
+    font-size:18px;
+    font-weight:200;
+    display:block;
+    width:100%;
+    height:100%;
+}
+.pt_box .pt_view_div{
+    position:absolute;
+    border:1px solid #333;
+    box-sizing:border-box;
+    width:180px;
+    height:50px;
+    z-index:9999;
+    margin:0;
+    background:url(../images/main/pt_veiw_plus_btn.png) no-repeat 90% center;
+    display:block;
+    bottom:7%;
+    left:50%;
+}
+.pt_box .pt_view_div a{
+    box-sizing:border-box;
+    padding-left:10px;
+    line-height:50px;
+    font-size:18px;
+    font-weight:200;
+    display:block;
+    width:100%;
+    height:100%;
+}
+.pt_01{
+    position:relative;
+    background:#cdd9e5;
+}
+
+.pt_02{
+    position:relative;
+    background:#cfd9d0;
+}
+
+.pt_03{
+    position:relative;
+    background:#e6e3e0;
+}
+
+.pt_04{
+    position:relative;
+    background:#e0c2c0;
+}
+
+.pt_05{
+    position:relative;
+    background:#83a6b6;
+}
+
+.pt_06{
+    position:relative;
+    background:#bec1ac;
+}
+
+.pt_07{
+    position:relative;
+    background:#e6d7c3;
+}
+
+.pt_08{
+    position:relative;
+    background:#f8e4dd;
+}
+
+.pt_09{
+    position:relative;
+    background:#bac9ce;
+}
+
+
+.portpolio .pt_preveiw01{
+    background:url(../images/main/pt_preview_img01.png) no-repeat center center;
+    background-size:cover;
+    width:750px;
+    height:100%;
+    text-indent:-9999px;
+    margin:0;
+    left:280px;
+    top:115px;
+    position:absolute;
+}
+
+.portpolio .pt_preveiw02{
+    background:url(../images/main/pt_preview_img02.png) no-repeat center center;
+    background-size:cover;
+    width:750px;
+    height:100%;
+    text-indent:-9999px;
+    margin:0;
+    left:280px;
+    top:115px;
+    position:absolute;
+}
+
+.portpolio .pt_preveiw03{
+    background:url(../images/main/pt_preview_img03.png) no-repeat center center;
+    background-size:cover;
+    width:750px;
+    height:100%;
+    text-indent:-9999px;
+    margin:0;
+    left:280px;
+    top:115px;
+    position:absolute;
+}
+
+.portpolio .pt_preveiw04{
+    background:url(../images/main/pt_preview_img04.png) no-repeat center center;
+    background-size:cover;
+    width:750px;
+    height:100%;
+    text-indent:-9999px;
+    margin:0;
+    left:280px;
+    top:115px;
+    position:absolute;
+}
+
+.portpolio .pt_preveiw05{
+    background:url(../images/main/pt_preview_img05.png) no-repeat center center;
+    background-size:cover;
+    width:750px;
+    height:100%;
+    text-indent:-9999px;
+    margin:0;
+    left:280px;
+    top:115px;
+    position:absolute;
+}
+
+.portpolio .pt_preveiw06{
+    background:url(../images/main/pt_preview_img06.png) no-repeat center center;
+    background-size:cover;
+    width:750px;
+    height:100%;
+    text-indent:-9999px;
+    margin:0;
+    left:280px;
+    top:115px;
+    position:absolute;
+}
+
+.portpolio .pt_preveiw07{
+    background:url(../images/main/pt_preview_img07.png) no-repeat center center;
+    background-size:cover;
+    width:750px;
+    height:100%;
+    text-indent:-9999px;
+    margin:0;
+    left:280px;
+    top:115px;
+    position:absolute;
+}
+
+.portpolio .pt_preveiw08{
+    background:url(../images/main/pt_preview_img08.png) no-repeat center center;
+    background-size:cover;
+    width:750px;
+    height:100%;
+    text-indent:-9999px;
+    margin:0;
+    left:280px;
+    top:115px;
+    position:absolute;
+}
+
+.portpolio .pt_preveiw09{
+    background:url(../images/main/pt_preview_img09.png) no-repeat center center;
+    background-size:cover;
+    width:750px;
+    height:100%;
+    text-indent:-9999px;
+    margin:0;
+    left:280px;
+    top:115px;
+    position:absolute;
+}
+
+/*veiw_detail 호버*/
+
+.pt_view:hover{
+    transform: scale(1.1);
+}
+
+
+
+
+/*skills*/
+.skills{
+    background:url(../images/main/skill_bg.png) no-repeat center center;
+    background-size: cover;
+    width:100%;
+    z-index:5000;
+    box-sizing:border-box;
+    position:relative;
+    
+}
+
+.skills h4{
+    font-size:150px;
+    color:rgba(3, 3, 3, 0.15);
+    position:absolute;
+    top:100px;
+    z-index: 7000;
+    width:100%;
+    text-align:center;
+}
+
+/*chart*/
+.chart{
+    float: left; 
+    width: 20%; 
+    height: 30%; 
+    text-align: center;
+    margin:0 2.5%;
+    display: inline-block;
+    
+}
+.chart span.title{
+    position: relative; 
+    display: block; 
+    width: 100%; 
+    text-align: center; 
+    top: 115px;
+    color:#f0f0f0;
+    font-size:24px;
+    font-weight:200;
+}
+
+
+/*fp_nav*/
+#fp-nav {
+    position: fixed;
+    z-index: 100;
+    margin-top: -32px;
+    top: 50%;
+    opacity: 1;
+    -webkit-transform: translate3d(0,0,0);
+}
+#fp-nav.right {
+    right: 17px;
+}
