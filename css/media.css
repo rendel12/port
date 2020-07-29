@@ -1,0 +1,42 @@
+@charset "utf-8";
+
+
+
+
+
+
+
+
+/*미디어영역밖에 쓰면 일반 css처럼적용*/
+.{
+    display:none;
+}
+/*미디어영역밖에 쓰면 일반 css처럼적용*/
+
+
+/*모    바    일    사    이    즈    768px*/
+@media screen and (max-width:768px){
+        
+    /*웹 모바일화(웹 사이즈 지정 해 뒀던 거 부수기)*/
+    body{min-width:auto;}
+    .inner{width:auto;}
+    
+    /*웹뷰에서 쓰던 것 안보임 처리(모바일에서 필요없는 부분 none처리, 모바일 안보임 처리)*/
+    .{
+        display:none;
+    }
+    
+    
+    
+    /*모바일 뷰 처리(모바일에서는 보이는 부분)*/
+    .{
+        display:block;
+    }
+    
+    
+    
+    
+    
+   
+}
+/*모    바    일    사    이    즈    768px*/
