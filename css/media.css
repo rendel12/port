@@ -1,0 +1,307 @@
+@charset "utf-8";
+
+
+
+
+
+
+
+
+/*미디어영역밖에 쓰면 일반 css처럼적용*
+.{
+    display:none;
+}
+/*미디어영역밖에 쓰면 일반 css처럼적용*/
+
+
+/*모    바    일    사    이    즈    768px*/
+@media screen and (max-width:768px){
+        
+    /*웹 모바일화(웹 사이즈 지정 해 뒀던 거 부수기)*/
+    body{min-width:auto;}
+    .inner{width:auto;}
+    
+    /*웹뷰에서 쓰던 것 안보임 처리(모바일에서 필요없는 부분 none처리, 모바일 안보임 처리)*/
+    .portpolio .slider_arrow{display:none !important;}
+    
+    
+    
+    /*모바일 뷰 처리(모바일에서는 보이는 부분)*/
+    .{
+        display:block;
+    }
+    
+    
+    
+/*---------------main---------------*/
+    
+    /*main_slider*/
+    .main_slider{
+        width:100%;
+        height:100%;
+        background-size:cover;
+    }
+    
+    #header{
+        margin:0%;
+        margin-top:1%;
+        margin-left:1%;
+        width:5%;
+        height:auto;
+        position:absolute;
+        padding:8%;
+        box-sizing:border-box;
+        display: block;
+        background-size:100%;
+        background-position:center center;
+    }
+    .main_txt{
+        width:100%;
+        height:100%;
+    }
+    .main_txt01{
+        font-size:2em;
+        left: 50%;
+        top: 50%;
+        transform:translate(-50%, -720%);
+        
+    }
+    .main_txt02{
+        font-size:2em;
+        left: 50%;
+        top: 50%;
+        transform:translate(-50%, 480%);
+    }
+
+
+    /*portfolio*/
+    .portpolio{
+        width:100%;
+        height:100%;
+        background-size:cover;
+    }
+    
+    .portpolio>div{
+        width:100%;
+        height:100%;
+        position:relative;
+    }
+    
+    .pt_tit{
+        font-size:3em;
+        padding-top:10%;
+        
+    }
+    
+    .portpolio h3{
+        font-size:4em;
+        left:5%;
+        top:10%;
+    }
+    
+    .portpolio .pt_box{
+        margin:0;
+        width:85%;
+        height:60%;
+        margin:0;
+        left:50%;
+        top:60%;
+        transform:translate(-50%, -50%);
+        background-size:cover;
+        padding:5%;
+    }
+    
+    /*프리뷰*/
+    .portpolio .pt_preveiw01{
+        margin:0%;
+        margin-top:20%;
+        width:100%;
+        height:auto;
+        position:absolute;
+        padding:30%;
+        box-sizing:border-box;
+        display: block;
+        background-size:100%;
+        background-position:center center;
+        left:50%;
+        top:50%;
+        transform:translate(-50%, -150%);
+    }
+    
+    .portpolio .pt_preveiw02{
+        margin:0%;
+        margin-top:20%;
+        width:100%;
+        height:auto;
+        position:absolute;
+        padding:30%;
+        box-sizing:border-box;
+        display: block;
+        background-size:100%;
+        background-position:center center;
+        left:50%;
+        top:50%;
+        transform:translate(-50%, -150%);
+    }
+    
+    .portpolio .pt_preveiw03{
+        margin:0%;
+        margin-top:20%;
+        width:100%;
+        height:auto;
+        position:absolute;
+        padding:30%;
+        box-sizing:border-box;
+        display: block;
+        background-size:100%;
+        background-position:center center;
+        left:50%;
+        top:50%;
+        transform:translate(-50%, -150%);
+    }
+    
+    .portpolio .pt_preveiw04{
+        margin:0%;
+        margin-top:20%;
+        width:100%;
+        height:auto;
+        position:absolute;
+        padding:30%;
+        box-sizing:border-box;
+        display: block;
+        background-size:100%;
+        background-position:center center;
+        left:50%;
+        top:50%;
+        transform:translate(-50%, -150%);
+    }
+    
+    .portpolio .pt_preveiw05{
+        margin:0%;
+        margin-top:20%;
+        width:100%;
+        height:auto;
+        position:absolute;
+        padding:30%;
+        box-sizing:border-box;
+        display: block;
+        background-size:100%;
+        background-position:center center;
+        left:50%;
+        top:50%;
+        transform:translate(-50%, -150%);
+    }
+    
+    .portpolio .pt_preveiw06{
+        margin:0%;
+        margin-top:20%;
+        width:100%;
+        height:auto;
+        position:absolute;
+        padding:30%;
+        box-sizing:border-box;
+        display: block;
+        background-size:100%;
+        background-position:center center;
+        left:50%;
+        top:50%;
+        transform:translate(-50%, -150%);
+    }
+    
+    .portpolio .pt_preveiw07{
+        margin:0%;
+        margin-top:20%;
+        width:100%;
+        height:auto;
+        position:absolute;
+        padding:30%;
+        box-sizing:border-box;
+        display: block;
+        background-size:100%;
+        background-position:center center;
+        left:50%;
+        top:50%;
+        transform:translate(-50%, -150%);
+    }
+    
+    .portpolio .pt_preveiw08{
+        margin:0%;
+        margin-top:20%;
+        width:100%;
+        height:auto;
+        position:absolute;
+        padding:30%;
+        box-sizing:border-box;
+        display: block;
+        background-size:100%;
+        background-position:center center;
+        left:50%;
+        top:50%;
+        transform:translate(-50%, -150%);
+    }
+    
+    .portpolio .pt_preveiw09{
+        margin:0%;
+        margin-top:20%;
+        width:100%;
+        height:auto;
+        position:absolute;
+        padding:30%;
+        box-sizing:border-box;
+        display: block;
+        background-size:100%;
+        background-position:center center;
+        left:50%;
+        top:50%;
+        transform:translate(-50%, -150%);
+    }
+    /*프리뷰*/
+    
+    .portpolio h4{
+        display:block;
+        font-size:1.5em;
+        margin:0 auto;
+        margin-top:20%;
+        margin-bottom:10%;
+        width:100%;
+        text-align:center;
+        
+    }
+    
+    .portpolio p{
+        font-size:1em;
+        width:100%;
+        margin:0 auto;
+        margin-bottom:8%;
+        text-align:center;
+    }
+    
+    .pt_box .pt_view{
+        position:absolute;
+        z-index:9999;
+        margin-left:-90px;
+        left:50%;
+    }
+    .pt_06 .pt_view{
+        width:40%;
+    }
+    .pt_06 .pt_view_div{
+        font-size:1em;
+        width:40%;
+        left:0;
+        bottom:0;
+        height:auto;
+        padding:0;
+        margin:0 auto;
+        margin-left:48%;
+        margin-right:8%;
+        margin-bottom:7%;
+        
+    }
+
+    
+/*---------------main---------------*/
+    
+   
+}
+/*모    바    일    사    이    즈    768px*/
